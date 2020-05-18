@@ -1,0 +1,6 @@
+applications:
+- name: demo
+path: target/
+domain: cfapps.io
+memory: 1G
+instances: 1

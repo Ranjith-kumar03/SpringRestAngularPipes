@@ -1,0 +1,13 @@
+package com.restapi.models;
+
+public class Player {
+	private String name;
+	private String team;
+	private String dob;
+	private Integer noOf4;
+	private Integer noOf6;
+	private Integer others;
+	
+	
+
+}

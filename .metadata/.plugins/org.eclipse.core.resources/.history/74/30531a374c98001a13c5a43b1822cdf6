@@ -1,0 +1,13 @@
+package com.restapi.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.restapi.models.Player;
+
+public interface PlayersRepository extends JpaRepository<Player, String> {
+
+	Optional<Player> findByName(String name);
+
+}
